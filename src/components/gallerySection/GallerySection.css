@@ -1,0 +1,33 @@
+.gallerySection-container{
+    width: 80%;
+    margin: 100px auto;
+}
+
+.gallerySection-container-inner{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.gallerySection-container-heading{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.gallerySection-container-heading-second{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.gallery-section-container-images{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 10px;
+    grid-auto-rows: 350px;
+}
+
+.gallery-section-container-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,26 @@
+.creditsContainer{
+    width: 100%;
+}
+
+.creditsContainer-inner{
+    padding: 100px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.creditsContainer-heading{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.creditsContainer-heading-two{
+    padding-top: 100px;
+}
+
+.credits-section-container-images{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 10px;
+    grid-auto-rows: 350px;
+}
