@@ -1,7 +1,6 @@
 .aboutContainer-header{
     margin-top: 80px;
     width: 100%;
-    padding: 100px 0;
     display: flex;
     justify-content: center;
     align-items: start;
@@ -10,7 +9,7 @@
 }
 
 .aboutContainer-header-heading{
-    font-size: 60px;
+    font-size: clamp(1.875rem, 0.739rem + 5.682vw, 5rem);
 }
 
 .aboutContainer-header-text{

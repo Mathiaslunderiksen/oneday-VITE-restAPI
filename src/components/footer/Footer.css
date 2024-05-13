@@ -44,6 +44,10 @@
     font-size: 12px;
 }
 
+.footer-about-heading{
+    font-weight: 600;
+}
+
 @media (min-width: 768px){
     .footer-container-inner-container{
         justify-content: space-around;

@@ -4,18 +4,16 @@
 
 .creditsContainer-inner{
     padding: 100px 0;
+    padding-bottom: 200px;
     width: 80%;
     margin: 0 auto;
 }
 
 .creditsContainer-heading{
-    font-size: clamp(1.5rem, 1.167rem + 1.778vw, 2.5rem);
+    font-size: clamp(1.125rem, -0.057rem + 5.909vw, 4.375rem);
     font-weight: 300;
 }
 
-.creditsContainer-heading-two{
-    padding-top: 100px;
-}
 
 .credits-section-container-images{
     margin-top: 20px;

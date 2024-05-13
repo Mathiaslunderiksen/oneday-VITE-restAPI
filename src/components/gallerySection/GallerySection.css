@@ -1,6 +1,7 @@
 .gallerySection-container{
     width: 80%;
     margin: 100px auto;
+    margin-bottom: 200px;
 }
 
 .gallerySection-container-inner{
@@ -10,12 +11,12 @@
 }
 
 .gallerySection-container-heading{
-    font-size: clamp(1.5rem, 1.167rem + 1.778vw, 2.5rem);
+    font-size: clamp(1rem, 0rem + 5vw, 4.375rem);
     font-weight: 300;
 }
 
 .gallerySection-container-heading-second{
-    font-size: clamp(1.5rem, 1.167rem + 1.778vw, 2.5rem);
+    font-size: clamp(1rem, 0rem + 5vw, 4.375rem);
     font-weight: 100;
 }
 

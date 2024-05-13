@@ -31,9 +31,9 @@
 }
 
 .header-paragraph{
-    font-size: 16px;
+    font-size: clamp(1rem, 0.636rem + 1.818vw, 2rem);
     padding-top: 15px;
-    font-weight: 200;
+    font-weight: 300;
     width: 72%;
 }
 

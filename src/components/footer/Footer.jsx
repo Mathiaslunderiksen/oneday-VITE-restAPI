@@ -16,12 +16,12 @@ const Footer = () => {
                     <p>Member of UNESCO Creative Cities Network since 2019</p>
                 </div>
                 <div>
-                    <p>Om Sitet</p>
+                    <p className="footer-about-heading">Om Sitet</p>
                     <p>Fotograf- og webudviklereleverne fra Medieskolerne i Viborg står bag hjemmesiden.</p>
-                    <p>Over 60 fotografelever har optaget mere end 1000 billeder fra Viborg over hele døgnet d. 30 maj 2024, mens skolens webudviklere har produceret hjemmesiden. </p>
+                    <p>Over 60 fotografelever har optaget mere end 1000 billeder fra Viborg over hele døgnet d. 16 maj 2024, mens skolens webudviklere har produceret hjemmesiden. </p>
                 </div>
             </div>
-            <p className="footer-copyright">&copy; Powered by Students at Media College Denmark / Medieskolerne in DK 8800 Viborg 30. of May 2024</p>
+            <p className="footer-copyright">&copy; Powered by Mathias Lund Eriksen at Media College Denmark / Medieskolerne in DK 8800 Viborg 16. of May 2024</p>
         </div>
     </div>
 };

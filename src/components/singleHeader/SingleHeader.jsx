@@ -8,7 +8,7 @@ const SingleHeader = (foundImage) => {
             <p className="singleContainer-section-one-right-time">{foundImage.foundImage.time}</p>
             <p className="singleContainer-section-one-right-title">{foundImage.foundImage.title}</p>
             <p>{foundImage.foundImage.description}</p>
-            <p>{"©" + foundImage.foundImage.profile.name}</p>
+            <p>{"© " + foundImage.foundImage.profile.name}</p>
           </div>
         </div>
  
