@@ -15,7 +15,7 @@ export function Single(){
     const [result, setResult] = useState(null);
 
     let fecthString = "https://onedayviborg.webmcdm.dk/api/moment?id=" + id;
-    console.log(fecthString)
+    
 
     useEffect(() => {
        fetch(fecthString).then((res) => {return res.json();}).then((data) => {setResult(data);});
