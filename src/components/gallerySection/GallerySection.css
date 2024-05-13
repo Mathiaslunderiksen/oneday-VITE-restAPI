@@ -10,12 +10,12 @@
 }
 
 .gallerySection-container-heading{
-    font-size: 40px;
+    font-size: clamp(1.5rem, 1.167rem + 1.778vw, 2.5rem);
     font-weight: 300;
 }
 
 .gallerySection-container-heading-second{
-    font-size: 40px;
+    font-size: clamp(1.5rem, 1.167rem + 1.778vw, 2.5rem);
     font-weight: 100;
 }
 
@@ -30,4 +30,11 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+@media (max-width: 768px){
+    .gallery-section-container-images{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-auto-rows: 250px;
+    }
 }

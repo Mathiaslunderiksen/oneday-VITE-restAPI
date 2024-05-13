@@ -9,56 +9,56 @@ export function Home(){
   const [night, setNight] = useState(null);
 
     useEffect(() => {
-       fetch("https://onedayviborg.webmcdm.dk/api/moments?start=2022-05-11T00:00:00&end=2022-05-11T02:59:59")
+       fetch("https://onedayviborg.webmcdm.dk/api/moments?start=00:00&end=03:00&date=2022-05-11")
        .then((res) => {return res.json();}).then((data) => {setNight(data);});
       }, []);
 
       const [morningone, setMorningone] = useState(null);
 
     useEffect(() => {
-       fetch("https://onedayviborg.webmcdm.dk/api/moments?start=2022-05-11T03:00:00&end=2022-05-11T05:59:59")
+       fetch("https://onedayviborg.webmcdm.dk/api/moments?start=03:00&end=06:00&date=2022-05-11")
        .then((res) => {return res.json();}).then((data) => {setMorningone(data);});
       }, []);
 
       const [morning, setMorning] = useState(null);
 
     useEffect(() => {
-       fetch("https://onedayviborg.webmcdm.dk/api/moments?start=2022-05-11T06:00:00&end=2022-05-11T08:59:59")
+       fetch("https://onedayviborg.webmcdm.dk/api/moments?start=06:00&end=09:00&date=2022-05-11")
        .then((res) => {return res.json();}).then((data) => {setMorning(data);});
       }, []);
 
       const [beforedinner, setBeforedinner] = useState(null);
 
     useEffect(() => {
-       fetch("https://onedayviborg.webmcdm.dk/api/moments?start=2022-05-11T09:00:00&end=2022-05-11T11:59:59")
+       fetch("https://onedayviborg.webmcdm.dk/api/moments?start=09:00&end=12:00&date=2022-05-11")
        .then((res) => {return res.json();}).then((data) => {setBeforedinner(data);});
       }, []);
 
       const [midday, setMidday] = useState(null);
 
     useEffect(() => {
-       fetch("https://onedayviborg.webmcdm.dk/api/moments?start=2022-05-11T12:00:00&end=2022-05-11T14:59:59")
+       fetch("https://onedayviborg.webmcdm.dk/api/moments?start=12:00&end=15:00&date=2022-05-11")
        .then((res) => {return res.json();}).then((data) => {setMidday(data);});
       }, []);
 
       const [afternoon, setAfternoon] = useState(null);
 
     useEffect(() => {
-       fetch("https://onedayviborg.webmcdm.dk/api/moments?start=2022-05-11T15:00:00&end=2022-05-11T17:59:59")
+       fetch("https://onedayviborg.webmcdm.dk/api/moments?start=15:00&end=18:00&date=2022-05-11")
        .then((res) => {return res.json();}).then((data) => {setAfternoon(data);});
       }, []);
 
       const [evening, setEvening] = useState(null);
 
     useEffect(() => {
-       fetch("https://onedayviborg.webmcdm.dk/api/moments?start=2022-05-11T18:00:00&end=2022-05-11T20:59:59")
+       fetch("https://onedayviborg.webmcdm.dk/api/moments?start=18:00&end=21:00&date=2022-05-11")
        .then((res) => {return res.json();}).then((data) => {setEvening(data);});
       }, []);
 
       const [lateevening, setLateevening] = useState(null);
 
     useEffect(() => {
-       fetch("https://onedayviborg.webmcdm.dk/api/moments?start=2022-05-11T21:00:00&end=2022-05-12T00:00:00")
+       fetch("https://onedayviborg.webmcdm.dk/api/moments?start=21:00&end=24:00&date=2022-05-11")
        .then((res) => {return res.json();}).then((data) => {setLateevening(data);});
       }, []);
 

@@ -18,3 +18,10 @@
     height: 100%;
     object-fit: cover;
 }
+
+@media (max-width: 768px){
+    .singleContainer-section-two{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-auto-rows: 250px;
+    }
+}
